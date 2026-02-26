@@ -1,0 +1,41 @@
+# Keep crewai at version 0.130.0
+crewai==0.130.0
+crewai-tools==0.47.1
+
+# Web framework
+fastapi==0.110.3
+uvicorn
+python-multipart
+
+# Queue + DB
+celery==5.3.6
+redis==5.0.4
+sqlalchemy==2.0.30
+
+# LLM + Langchain
+openai
+langchain-core
+langchain-community
+langchain-openai
+langsmith
+
+# PDF
+pypdf
+
+# Google (let pip resolve versions)
+google-generativeai
+google-api-python-client
+google-auth
+google-cloud-aiplatform
+google-cloud-storage
+
+# Utils
+python-dotenv
+pandas
+numpy
+pillow
+Jinja2
+jsonschema
+click
+pydantic
+protobuf
